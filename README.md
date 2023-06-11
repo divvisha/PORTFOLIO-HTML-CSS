@@ -3,7 +3,7 @@
 ## AIM:
 To create a portfolio using HTML and CSS.
 
-## ALGORITHM:
+## ALGORITHM: 
 1. Set up the basic structure of your HTML document.
 
 2. Create a CSS file named "styles.css" and link it to your HTML document. This file will contain the CSS rules for styling your portfolio.
