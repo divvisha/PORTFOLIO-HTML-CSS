@@ -133,7 +133,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
     <div class="w3-section">
       <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chennai, Tamilnadu</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 8267905743</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 8736563465436</p>
       <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
     </div><br>
     <p>Let's get in touch. Send me a message:</p>
@@ -156,15 +156,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 </body>
 </html>
 
+
 ## OUTPUT:
-<img width="933" alt="port head" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/84d1fc29-3210-4621-8b6a-a475750e144c">
-<img width="931" alt="port about" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/2041a480-2140-42e7-ac85-cecc015aa627">
-<img width="932" alt="port skill" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/0d302689-b6fb-40b8-abbc-9f1f3b3e0856">
-<img width="927" alt="port achvmt" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/a8e03005-4170-4310-bfa5-bfb85e7f6e44">
-<img width="925" alt="port project" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/709cf82e-db58-4535-918f-2721cab683e1">
-<img width="927" alt="port lang" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/656e7630-30a9-4706-8095-d438325c579b">
-<img width="926" alt="port contact" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/6123a97a-2505-40ad-b354-4ac610954f1e">
-<img width="928" alt="port footer" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/25c59d0d-cd19-4633-bd9e-1b3b5892c314">
+<img width="947" alt="port p1" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/ceb59016-a9bd-491a-9ab1-d3d7ed6a5268">
+<img width="850" alt="port p2" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/893020cc-9193-4ce4-9e00-57a1b556d450">
+<img width="874" alt="port p3" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/fcff09d1-870d-41e8-9d50-afcb4c07f789">
+<img width="858" alt="port p4" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/6c6dbd1b-7d49-4b8f-b928-d389b3af1cad">
 
 ## RESULT:
 Thus, a Portfolio is created successfully using HTML and CSS.
