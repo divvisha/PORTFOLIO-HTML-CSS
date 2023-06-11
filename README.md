@@ -20,10 +20,12 @@ To create a portfolio using HTML and CSS.
 
 ## CODE:
 
-<!DOCTYPE html>
-<html>
-<title> portfolio </title>
-<meta charset="UTF-8">
+### HTML-CSS CODE:
+
+<!DOCTYPE html><br>
+<html><br>
+<title> portfolio </title><br>
+<meta charset="UTF-8"><br>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
@@ -72,15 +74,15 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <div class="w3-padding-large" id="main">
   <!-- Header/Home -->
   <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
-    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> Akalya Alexander.</h1>
-    <p>java full stack developer.</p>
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> DIVYASHREE</h1>
+    <p>java full stack developer</p>
     <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg" alt="girl" class="w3-image" width="500" height="500">
   </header>
 <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
     <h2 class="w3-text-light-grey">My Name</h2>
     <hr style="width:200px" class="w3-opacity">
-    <p>Hi! I'm Akalya Alexander I'm a java full stack developer, I'm highly interested in bringing forth new ideas and working in new projects. And in addition to it I work well in groups and I possess high leadership qualities. I complete my work in time and able to manage to work in any hard environment.
+    <p>Hi! I'm Diyashree I'm a java full stack developer, I'm highly interested in bringing forth new ideas and working in new projects. And in addition to it I work well in groups and I possess high leadership qualities. I complete my work in time and able to manage to work in any hard environment.
     </p>
     <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
     <p class="w3-wide">Front end developing</p>
