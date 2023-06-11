@@ -20,478 +20,141 @@ To create a portfolio using HTML and CSS.
 
 ## CODE:
 
-<!DOCTYPE html><br>
-<html lang="en"><br>
-<head><br>
-	<meta charset="UTF-8"><br>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
-	<title>Portfolio Website</title><br>
-  </head><br>
-<body><br>
-	<!--Header(start)--><br>
-	<table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#DC143C"><br>
-		<tr><td><br>
-				<table border="0" cellpadding="15" cellspacing="0" width="90%" align="center"><br>
-					<tr><td><br>
-            </td><br>
-						<td><br>
-							<font face="Verdana" size="5"><br>
-								<b>PORTFOLIO</b><br>
-							</font></td><br>
-						<td width="15%"></td><br>
-						<td><br>
-							<a href="#home" style="text-decoration:none"><br>
-								<font face="Verdana" size="4" color=black><br>
-									<b>Home</b><br>
-								</font></a></td><br>
-						<td><br>
-							|<br>
-						</td><br>
-						<td><br>
-							<a href="#about" style="text-decoration:none"><br>
-								<font face="Verdana" size="4" color=black><br>
-									<b>About</b><br>
-								</font></a></td><br>
-						<td><br>
-							|<br>
-						</td><br>
-						<td>
-							<a href="#skills" style="text-decoration:none">
-								<font face="Verdana" size="4" color=black>
-									<b>Skills</b>
-								</font></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td>
-							<a href="#achievements" style="text-decoration:none">
-								<font face="Verdana" size="4" color=black>
-									<b>Achievements</b>
-								</font></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td>
-							<a href="#projects" style="text-decoration:none">
-								<font face="Verdana" size="4" color=black>
-									<b>Projects</b>
-								</font></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td>
-							<a href="#projects" style="text-decoration:none">
-								<font face="Verdana" size="4" color=black>
-									<b>Language</b>
-								</font></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td>
-							<a href="#contact" style="text-decoration:none">
-								<font face="Verdana" size="4" color=black>
-									<b>Contact</b>
-								</font></a>
-						</td>
-					</tr></table>
-			</td></tr>
-	</table>
-	<!--Header(end)-->
+<!DOCTYPE html>
+<html>
+<title> portfolio </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black">
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+ <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span> DIVYASHREE</h1>
+    <p>java full stack developer</p>
+    <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg" alt="girl" class="w3-image" width="500" height="500">
+  </header>
+<!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">My Name</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Hi! I'm Divyashree I'm a java full stack developer, I'm highly interested in bringing forth new ideas and working in new projects. And in addition to it I work well in groups and I possess high leadership qualities. I complete my work in time and able to manage to work in any hard environment.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Front end developing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+     <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+     <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">Mail Support</li>
+          </li>
+          <li class="w3-light-grey w3-padding-24"> 
+          </li>
+        </ul>
+      </div>
+<div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">Front end development</li>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+         
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+   <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
 
-	<!--Home(start)-->
-	<table id="home" border="1" width="100%"
-		cellpadding="20" cellspacing="0" bgcolor="black">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						<td align="center" valign="middle">
-							<h3>
-								<font face="Times New Roman"
-									size="6" color="#DC143C">
-									Hello I'm Divyashree!
-								</font></h3>
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Chennai, Tamilnadu</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> 8267905743</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+    </div><br>
+    <p>Let's get in touch. Send me a message:</p>
 
-							<h2>
-								<font face="Verdana" size="6"
-									color="#FA8072">
-									<!-- Freelance Programmer -->
-								</font></h2>
-						</td></tr>
-				</table></td>
-		</tr></table>
-	<!--Home(end)-->
-
-
-	<!--About(start)-->
-	<table id="about" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#DC143C">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="pink">
-								ABOUT ME
-							</font>
-							<hr color="pink" width="140">
-						</td></tr>
-
-					<tr>
-						<td width="40%">
-							<img src="pexels-kristina-paukshtite-704752.jpg" height="400" width="350">
-						</td>
-
-						<td width="60%">
-							<font face="Verdana" size="4"
-								color="black">
-								Thanks for your interest, here
-								is a quick story of me.<br>
-								I am Divyashree B S.<br>
-								I do my work mainly in C-Language,
-								C++ and JAVA. C++ and Data Structure
-								& Algorithm are my stronger section.
-								Besides these I know Web Development,
-								LINUX and database as well.
-								I ensure you that I do my work effectively and passionately. 
-								Thanks again for reading this,
-								because of people like you, it
-								exists and prospers!<br>
-								Cheers,
-								<br>
-								<b>Divyashree</b>
-							</font></td>
-					</tr></table>
-			</td></tr>
-	</table>
-	<!--About(end)-->
-	
-	<!--Skills(start)-->
-	<table id="projects" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="pink">
-							    SKILLS
-							</font>
-							<hr color="pink" width="120">
-						</td></tr>
-
-					<tr>
-						<td height="10">
-							<font face="Times New Roman"
-								size="5" color="#DC143C">
-								<ul ><li>
-										C
-										<a href="#" style="text-decoration:none"></a>
-									</li>
-									<li>
-										C++
-										<a href="#" style="text-decoration:none"></a>
-									</li>
-									<li>
-										Java
-										<a href="#" style="text-decoration:none"></a>
-                  </li>
-									<li>
-										Web development
-										<a href="#" style="text-decoration:none"></a>
-									</li>
-									<li>
-										Python
-										<a href="#" style="text-decoration:none"></a>
-									</li>
-									<li>
-										Creative writing
-										<a href="#" style="text-decoration:none"></a>
-									</li>
-								</ul></font>
-						</td>
-						<td width="45%">
-							<img src="download.jpg" height="200" width="200">
-							<img src="creatwrite.jpg" height="200" width="200">
-						</td></tr>
-				</table>
-			</td></tr>
-	</table>
-	<!--Skills(end)-->
-
-	<!--Achievement(start)-->
-	<table id="achievements" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#DC143C">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center" valign="middle">
-							<font face="Verdana" size="7" color="pink">
-								ACHIEVEMENTS
-							</font>
-							<hr color="pink" width="190">
-						</td></tr>
-					<tr><td>
-							<font face="Verdana" size="4" color="black">
-								<ul><li>
-										<b>Intern at Connect Infosystem.</b>
-										<ul><li>
-												January, 2023 - April, 2023.</li>
-											<li>
-												Write technical articles
-												on programming related topics.</li>
-										</ul></li>
-									<li>
-										<b>Won an Award for Punctuality.</b></li>
-									<li>
-										<b>Won Second prize in Hackathon.</b>
-										<ul><li>
-												October,2022.
-											</li></ul>
-									</li></ul>
-							</font></td>
-					</tr></table>
-			</td></tr>
-	</table>
-	<!--Achievement(end)-->
-
-	<!--Projects(start)-->
-	<table id="projects" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="pink">
-							    PROJECTS
-							</font>
-							<hr color="pink" width="120">
-						</td></tr>
-					<tr>
-						<td height="10">
-							<font face="Times New Roman"
-								size="5" color="#DC143C">
-								<ol ><li>
-										Chat application
-										<a href="#" style="text-decoration:none"></a>
-									</li>
-									<li>
-										Website design
-										<a href="#" style="text-decoration:none"></a>
-									</li>
-									<li>
-										Face recognising
-										<a href="#" style="text-decoration:none"></a>
-									</li>		
-								</ol></font>
-						</td></tr>
-				</table></td>
-		</tr></table>
-	Projects(end)-->
-
-	<!--Languages(start)-->
-	<table id="projects" border="0" width="100%"
-	cellpadding="0" cellspacing="0" bgcolor="#DC143C">
-	<tr><td>
-			<table border="0" cellpadding="15"
-				cellspacing="0" width="80%" align="center">
-				<tr>
-					<td height="180" align="center"
-						valign="middle" colspan="2">
-						<font face="Verdana" size="7"
-							color="pink">
-							LANGUAGE
-						</font>
-						<hr color="pink" width="120">
-					</td></tr>
-				<tr>
-					<td height="10">
-						<font face="Times New Roman"
-							size="5" color="black">
-							<ul ><li>
-									English
-									<a href="#" style="text-decoration:none"></a>
-								</li>
-								<li>
-									Tamil
-									<a href="#" style="text-decoration:none"></a>
-								</li>
-								<li>
-									Telugu
-									<a href="#" style="text-decoration:none"></a>
-								</li>
-								</ul></font>
-						</td></tr>
-				</table></td>
-		</tr></table>
-<!--Language(end)-->
-
-	<!--Contact(start)-->
-	 <table id="contact" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="pink">
-								CONTACT
-							</font>
-							<hr color="pink" width="120">	
-						</td></tr>
-					<tr>
-						<td align="center" valign="top">
-							<table border="0" width="50%" cellpadding="15"
-								cellspacing="0" align="center" bgcolor="#DC143C">
-								<tr>
-									<td width="30%">
-										<font face="Verdana" size="4"
-											color="white">
-											Name
-										</font>
-									</td>
-									<td width="70%">
-										<font face="Verdana" size="4"
-											color="black">
-											<input type="text" size="40">
-										</font></td>
-								</tr>
-								<tr>
-									<td width="30%">
-										<font face="Verdana" size="4"
-											color="white">
-											Email
-										</font></td>
-									<td width="70%">
-										<font face="Verdana" size="4"
-											color="black">
-											<input type="email" size="40">
-										</font>
-									</td></tr>
-								<tr>
-									<td width="30%">
-										<font face="Verdana" size="4"
-											color="white">
-											Number
-										</font></td>
-									<td width="70%">
-										<font face="Verdana" size="4"
-											color="#ffffff">
-											<input type="number" size="12">
-										</font>
-									</td></tr>
-								<tr>
-									<td width="30%">
-										<font face="Verdana" size="4"
-											color="white">
-											Message
-										</font></td>
-									<td width="70%">
-										<font face="Verdana" size="4"
-											color="#ffffff">
-											<textarea rows="5"
-												cols="37">
-											</textarea>
-										</font>
-									</td></tr>
-								<tr>
-									<td width="30%"></td>
-									<td width="70%">
-										<button type="Submit">
-											<font face="Verdana"
-												size="4" color="black">
-												<b>Submit</b>
-											</font></button>
-									</td></tr>
-              </table></td>
-					</tr>
-					<tr>
-						<td colspan="2">
-						</td>
-					</tr></table>
-			</td></tr>
-	</table>
-	<!--Contact(end)-->
-
-	<!--Footer1(start)-->
-	<table id="footer" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#DC143C">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						<td width="13%" valign="top">
-							<b>LinkedIn</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td width="13%" valign="top">
-							<b>GitHub</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td width="13%" valign="top">
-							<b>HackerRank</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td width="13%" valign="top">
-							<b>Instagram</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td width="13%" valign="top">
-							<b>Twitter</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td width="13%" valign="top">
-							<b>Facebook</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td width="13%" valign="top">
-							<b>Email</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td>
-						<td>
-							|
-						</td>
-						<td width="13%" valign="top">
-							<b>Website</b>
-							<a href="#" style="text-decoration:none"></a>
-						</td></tr>
-				</table></td>
-		</tr></table> 
-	<!--Footer1(end)-->
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+ <!-- END PAGE CONTENT -->
+</div>
 </body>
-</html> 
+</html>
 
 ## OUTPUT:
 <img width="933" alt="port head" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/84d1fc29-3210-4621-8b6a-a475750e144c">
