@@ -21,46 +21,40 @@ To create a portfolio using HTML and CSS.
 ## CODE:
 
 <!DOCTYPE html><br>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content=
-		"width=device-width, initial-scale=1.0">
-	<title>Portfolio Website</title>
-  </head>
-<body>
-	<!--Header(start)-->
-	<table id="header" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#DC143C">
-		<tr><td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr><td>
-            </td>
-						<td>
-							<font face="Verdana" size="5">
-								<b>PORTFOLIO</b>
-							</font>
-						</td>
-						<td width="15%">	</td>
-						<td>
-							<a href="#home" style="text-decoration:none">
-								<font face="Verdana" size="4" color=black>
-									<b>Home</b>
-								</font></a>
-            </td>
-						<td>
-							|
-						</td>
-						<td>
-							<a href="#about" style="text-decoration:none">
-								<font face="Verdana" size="4" color=black>
-									<b>About</b>
-								</font></a>
-            </td>
-						<td>
-							|
-						</td>
+<html lang="en"><br>
+<head><br>
+	<meta charset="UTF-8"><br>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+	<title>Portfolio Website</title><br>
+  </head><br>
+<body><br>
+	<!--Header(start)--><br>
+	<table id="header" border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#DC143C"><br>
+		<tr><td><br>
+				<table border="0" cellpadding="15" cellspacing="0" width="90%" align="center"><br>
+					<tr><td><br>
+            </td><br>
+						<td><br>
+							<font face="Verdana" size="5"><br>
+								<b>PORTFOLIO</b><br>
+							</font></td><br>
+						<td width="15%"></td><br>
+						<td><br>
+							<a href="#home" style="text-decoration:none"><br>
+								<font face="Verdana" size="4" color=black><br>
+									<b>Home</b><br>
+								</font></a></td><br>
+						<td><br>
+							|<br>
+						</td><br>
+						<td><br>
+							<a href="#about" style="text-decoration:none"><br>
+								<font face="Verdana" size="4" color=black><br>
+									<b>About</b><br>
+								</font></a></td><br>
+						<td><br>
+							|<br>
+						</td><br>
 						<td>
 							<a href="#skills" style="text-decoration:none">
 								<font face="Verdana" size="4" color=black>
