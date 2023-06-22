@@ -161,10 +161,14 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 ```
 ## OUTPUT:
-<img width="947" alt="port p1" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/ceb59016-a9bd-491a-9ab1-d3d7ed6a5268">
-<img width="850" alt="port p2" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/893020cc-9193-4ce4-9e00-57a1b556d450">
-<img width="874" alt="port p3" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/fcff09d1-870d-41e8-9d50-afcb4c07f789">
-<img width="858" alt="port p4" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/6c6dbd1b-7d49-4b8f-b928-d389b3af1cad">
+
+<img width="940" alt="port1" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/1659c5f8-be1a-429c-a222-5de37bd9046a">
+
+<img width="926" alt="port2" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/993e2b48-a37c-4cd2-8efa-27a5fb3559bc">
+
+<img width="859" alt="port3" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/db8a00fb-a93d-492a-a584-3d1cb74a8faa">
+
+<img width="950" alt="port4" src="https://github.com/divvisha/PORTFOLIO-HTML-CSS/assets/127508123/4124ca8b-f5a8-4982-8c68-5d6c954aeb6b">
 
 ## RESULT:
 Thus, a Portfolio is created successfully using HTML and CSS.
